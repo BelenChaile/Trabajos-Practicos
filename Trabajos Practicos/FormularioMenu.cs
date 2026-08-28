@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Trabajos_Practicos.Practico1;
 using Trabajos_Practicos.Practico2;
+using Trabajos_Practicos.Practico4;
 
 namespace Trabajos_Practicos
 {
@@ -36,6 +37,18 @@ namespace Trabajos_Practicos
         private void BSalir_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void FormularioMenu_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BPractico4_Click(object sender, EventArgs e)
+        {
+            FormularioGrid f4 = new FormularioGrid();
+            f4.Show();
+            this.Hide();
         }
     }
 }

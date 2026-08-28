@@ -538,6 +538,7 @@
             this.MainMenuStrip = this.menuStrip;
             this.Name = "MDIParent1";
             this.Text = "Pequeño Sistema";
+            this.Load += new System.EventHandler(this.MDIParent1_Load);
             this.menuStrip.ResumeLayout(false);
             this.menuStrip.PerformLayout();
             this.toolStrip.ResumeLayout(false);

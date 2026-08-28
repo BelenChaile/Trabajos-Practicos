@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Trabajos_Practicos.Practico1;
 using Trabajos_Practicos.Practico2;
+using Trabajos_Practicos.Practico4;
 
 namespace Trabajos_Practicos
 {
@@ -18,7 +19,7 @@ namespace Trabajos_Practicos
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MDIParent1());
+            Application.Run(new FormularioMenu());
         }
     }
 }

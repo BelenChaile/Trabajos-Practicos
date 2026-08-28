@@ -31,6 +31,7 @@
             this.BPractico1 = new System.Windows.Forms.Button();
             this.BPractico2 = new System.Windows.Forms.Button();
             this.BSalir = new System.Windows.Forms.Button();
+            this.BPractico4 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // BPractico1
@@ -53,7 +54,7 @@
             this.BPractico2.Name = "BPractico2";
             this.BPractico2.Size = new System.Drawing.Size(112, 30);
             this.BPractico2.TabIndex = 1;
-            this.BPractico2.Text = "Practico 2";
+            this.BPractico2.Text = "Practico 2/3";
             this.BPractico2.UseVisualStyleBackColor = false;
             this.BPractico2.Click += new System.EventHandler(this.BPractico2_Click);
             // 
@@ -69,17 +70,31 @@
             this.BSalir.UseVisualStyleBackColor = false;
             this.BSalir.Click += new System.EventHandler(this.BSalir_Click);
             // 
+            // BPractico4
+            // 
+            this.BPractico4.BackColor = System.Drawing.Color.Gray;
+            this.BPractico4.ForeColor = System.Drawing.Color.White;
+            this.BPractico4.Location = new System.Drawing.Point(55, 87);
+            this.BPractico4.Name = "BPractico4";
+            this.BPractico4.Size = new System.Drawing.Size(112, 29);
+            this.BPractico4.TabIndex = 3;
+            this.BPractico4.Text = "Practico 4";
+            this.BPractico4.UseVisualStyleBackColor = false;
+            this.BPractico4.Click += new System.EventHandler(this.BPractico4_Click);
+            // 
             // FormularioMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(234, 211);
+            this.Controls.Add(this.BPractico4);
             this.Controls.Add(this.BSalir);
             this.Controls.Add(this.BPractico2);
             this.Controls.Add(this.BPractico1);
             this.Name = "FormularioMenu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Menu de Practicos";
+            this.Load += new System.EventHandler(this.FormularioMenu_Load);
             this.ResumeLayout(false);
 
         }
@@ -89,5 +104,6 @@
         private System.Windows.Forms.Button BPractico1;
         private System.Windows.Forms.Button BPractico2;
         private System.Windows.Forms.Button BSalir;
+        private System.Windows.Forms.Button BPractico4;
     }
 }

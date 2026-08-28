@@ -70,6 +70,12 @@
     <Compile Include="Practico2\Formulario2.Designer.cs">
       <DependentUpon>Formulario2.cs</DependentUpon>
     </Compile>
+    <Compile Include="Practico4\FormularioGrid.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Practico4\FormularioGrid.Designer.cs">
+      <DependentUpon>FormularioGrid.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FormularioMenu.resx">
@@ -83,6 +89,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Practico2\Formulario2.resx">
       <DependentUpon>Formulario2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Practico4\FormularioGrid.resx">
+      <DependentUpon>FormularioGrid.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

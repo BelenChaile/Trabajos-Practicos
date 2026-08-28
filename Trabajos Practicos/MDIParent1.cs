@@ -103,5 +103,16 @@ namespace Trabajos_Practicos
                 childForm.Close();
             }
         }
+
+        private void MDIParent1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void MDIParent1_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            FormularioMenu menu = new FormularioMenu();
+            menu.Show();
+        }
     }
 }
